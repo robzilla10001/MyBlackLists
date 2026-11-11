@@ -1,0 +1,38 @@
+# Custom Pi-hole Black/White List
+# contains regex allow/deny and exact allow/deny patterns. Please use common sense
+
+# regex deny
+(\.|^)bowlingpish\.com$	
+(\.|^)googlesyndication\.com$	
+(\.|^)googleads\.g\.doubleclick\.net$	
+(\.|^)primis\.tech$	
+(\.|^)cloudflareinsights\.com$	
+(\.|^)rapidedge\.io$	
+(\.|^)fsrv\.io$	
+(\.|^)temu\.com$
+(\.|^)diagnostic\.networking\.aws\.dev$
+
+# regex allow
+(\.|^)facebook\.com$
+(\.|^)lendingtree\.com$
+(\.|^)paypal\.com$
+
+# exact deny
+config.frfigures.com	
+kctbh9vrtdwd.stspg-customer.com
+chat.avatar.ext.hp.com
+snowflint.com
+
+# exact allow
+fireoscaptiveportal.com	
+firetvcaptiveportal.com	
+dp-discovery-na-ext.amazon.com	
+unagi-na.amazon.com	
+sponsored-ads.amazon.com	
+det-ta-g7g.amazon.com	
+web.diagnostic.networking.aws.dev	
+fls-na.amazon.com	
+unagi.amazon.com	
+
+	
+
